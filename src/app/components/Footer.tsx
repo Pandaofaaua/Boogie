@@ -51,21 +51,21 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className="mt-3 md:mt-0 flex gap-4">
           <a
-            href="https://github.com/yourgithub"
+            href="https://github.com/Pandaofaaua"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FiGithub className="text-xl text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition" />
           </a>
           <a
-            href="https://linkedin.com/in/yourlinkedin"
+            href="https://linkedin.com/in/oluwaseyi-akomolafe-151a08237"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FiLinkedin className="text-xl text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition" />
           </a>
           <a
-            href="https://twitter.com/yourtwitter"
+            href="https://twitter.com/Loseyiknows"
             target="_blank"
             rel="noopener noreferrer"
           >
