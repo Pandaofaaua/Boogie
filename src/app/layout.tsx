@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ClientLayout from "./ClientLayout";
-import ThemeProvider from "./components/ThemeProvider";
 
 export const metadata: Metadata = {
   title: "Loseyi | Frontend Developer",
@@ -52,9 +51,7 @@ export default function RootLayout({
         <link rel="icon" href="/OSEYI.png" />
       </head>
       <body className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
-        <ClientLayout>
-          <ThemeProvider>{children}</ThemeProvider>
-        </ClientLayout>
+        <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
   );

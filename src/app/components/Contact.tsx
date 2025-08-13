@@ -23,7 +23,7 @@ const Contact = () => {
 
         {/* CTA Button */}
         <motion.a
-          href="mailto:loseyii014.com"
+          href="mailto:loseyii014@gmail.com"
           className="mt-6 inline-block px-6 py-3 text-lg font-medium text-white bg-blue-600 dark:bg-blue-500 rounded-lg 
                      transition-all duration-300 hover:bg-blue-700 dark:hover:bg-blue-400 hover:scale-105"
           whileHover={{ scale: 1.05 }}

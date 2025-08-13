@@ -2,18 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #fff;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #111827;
-  }
-}
-
 body {
-  background: var(--background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

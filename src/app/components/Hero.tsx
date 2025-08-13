@@ -22,8 +22,8 @@ const Hero = () => {
           transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
           className="mt-4 text-lg font-body text-gray-600 dark:text-gray-300"
         >
-          A Front-End Developer building modern, responsive, and scalable web
-          applications.
+          A Front-End & Salesforce Developer building modern, responsive, and
+          scalable solutions for the web and business applications.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

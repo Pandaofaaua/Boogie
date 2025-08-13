@@ -9,7 +9,10 @@ import {
   SiSanity,
   SiBootstrap,
   SiJavascript,
+  SiExpress,
+  SiMongodb,
 } from "react-icons/si";
+import { FaSalesforce, FaNode } from "react-icons/fa6";
 
 const skills = [
   { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
@@ -19,6 +22,10 @@ const skills = [
   { name: "Sanity.io", icon: SiSanity, color: "#F03E2F" },
   { name: "Bootstrap", icon: SiBootstrap, color: "#7952B3" },
   { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
+  { name: "Salesforce Apex&Lwc", icon: FaSalesforce, color: "#00A1E0" },
+  { name: "Node.js", icon: FaNode, color: "#339933" },
+  { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
+  { name: "ExpressJS", icon: SiExpress, color: "#000000" },
 ];
 
 const About = () => {
@@ -42,10 +49,13 @@ const About = () => {
             About Me
           </h2>
           <p className="mt-4 text-lg font-body text-gray-600 dark:text-gray-300 leading-relaxed">
-            I&apos;m a passionate front-end developer dedicated to building
-            modern, scalable, and interactive web applications. I love crafting
-            clean, user-friendly experiences that blend aesthetics with
-            functionality.
+            I&apos;m a passionate Front-End & Salesforce Developer dedicated to
+            building modern, scalable, and interactive web applications. I enjoy
+            crafting clean, responsive, and user-friendly experiences that blend
+            aesthetics with functionality, while also leveraging Salesforce to
+            create efficient, customized business solutions. With a focus on
+            performance, accessibility, and scalability, I aim to deliver
+            products that make a real impact.
           </p>
 
           {/* Skills Section */}

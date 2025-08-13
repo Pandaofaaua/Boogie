@@ -2,14 +2,20 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
-import { SiNextdotjs, SiTypescript, SiTailwindcss } from "react-icons/si";
+import {
+  SiNextdotjs,
+  SiTypescript,
+  SiTailwindcss,
+  SiJavascript,
+} from "react-icons/si";
+import { FaSalesforce } from "react-icons/fa6";
 
 const projects = [
   {
     title: "Wiki-Search",
     description:
       "A fast and intuitive search engine powered by the Wikipedia API, built with Next.js.",
-    image: "/wikisearch.png", // Replace with actual image path
+    image: "/wikisearch.png",
     tech: [
       { icon: SiNextdotjs, color: "#000000" },
       { icon: SiTypescript, color: "#3178C6" },
@@ -22,7 +28,7 @@ const projects = [
     title: "Movies Hub",
     description:
       "A sleek movie & TV show explorer using the TMDb API, built with Next.js and Tailwind CSS.",
-    image: "/movieshub.png", // Replace with actual image path
+    image: "/movieshub.png",
     tech: [
       { icon: SiNextdotjs, color: "#000000" },
       { icon: SiTypescript, color: "#3178C6" },
@@ -30,6 +36,18 @@ const projects = [
     ],
     live: "https://movies-hub-by-loseyi.vercel.app",
     github: "https://github.com/Pandaofaaua/Movies-HUB",
+  },
+  {
+    title: "Job Application Tracker",
+    description:
+      "A smart Salesforce app that lets users track and filter job applications, with automated email reminders and triggers that fire on key status changes (like 'Interviewing'). Built to improve job search efficiency.",
+    image: "/JobAppTracker.png",
+    tech: [
+      { icon: FaSalesforce, color: "#00A1E0" },
+      { icon: SiJavascript, color: "#F7DF1E" },
+    ],
+    live: "https://loseyiportfolio.vercel.app/JobAppTracker.png",
+    github: "https://github.com/Pandaofaaua/JobAppTracker",
   },
 ];
 

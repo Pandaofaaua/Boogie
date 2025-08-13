@@ -1,24 +1,29 @@
 "use client";
 
-import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
 const ThemeToggle = () => {
-  const { theme, setTheme, systemTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
+  const [theme, setTheme] = useState("light");
 
   useEffect(() => {
-    setMounted(true);
+    const savedTheme = localStorage.getItem("theme") || "light";
+    document.documentElement.classList.toggle("dark", savedTheme === "dark");
+    setTheme(savedTheme);
   }, []);
 
-  const currentTheme = theme === "system" ? systemTheme : theme;
+  const toggleTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    localStorage.setItem("theme", newTheme);
+    document.documentElement.classList.toggle("dark", newTheme === "dark");
+    setTheme(newTheme);
+  };
 
   return (
     <button
-      onClick={() => setTheme(currentTheme === "dark" ? "light" : "dark")}
-      className="p-2 rounded-md border border-gray-500 text-sm"
+      onClick={toggleTheme}
+      className="p-2 bg-gray-200 dark:bg-gray-800 rounded-md transition"
     >
-      {mounted && currentTheme === "dark" ? "☀️" : "🌙"}
+      {theme === "light" ? "🌙" : "☀️"}
     </button>
   );
 };
