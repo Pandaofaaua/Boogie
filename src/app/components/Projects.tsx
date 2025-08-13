@@ -41,12 +41,12 @@ const projects = [
     title: "Job Application Tracker",
     description:
       "A smart Salesforce app that lets users track and filter job applications, with automated email reminders and triggers that fire on key status changes (like 'Interviewing'). Built to improve job search efficiency.",
-    image: "/JobAppTracker.png",
+    image: "/JobAppTracker.PNG",
     tech: [
       { icon: FaSalesforce, color: "#00A1E0" },
       { icon: SiJavascript, color: "#F7DF1E" },
     ],
-    live: "https://loseyiportfolio.vercel.app/JobAppTracker.png",
+    live: "https://loseyiportfolio.vercel.app/JobAppTracker.PNG",
     github: "https://github.com/Pandaofaaua/JobAppTracker",
   },
 ];
