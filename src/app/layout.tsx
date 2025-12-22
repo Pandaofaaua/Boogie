@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import ClientLayout from "./ClientLayout";
 
 export const metadata: Metadata = {
-  title: "Loseyi | Frontend Developer",
+  title: "Pruf Boogie | Web3 Specialist",
   description:
-    "I'm a frontend developer specializing in modern web applications using Next.js, TypeScript, and Tailwind CSS.",
+    "I'm a passionate Web3 Engagement Specialist who transforms complex protocol data into accessible community insight",
   keywords:
     "frontend developer, Next.js, TypeScript, Tailwind CSS, web development, React",
   authors: [
@@ -48,10 +47,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/OSEYI.png" />
+        <link rel="icon" href="/Boogie/BoogieLogo2.jpeg" />
       </head>
-      <body className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
-        <ClientLayout>{children}</ClientLayout>
+      <body className="bg-white dark:bg-gray-900 text-white dark:text-white">
+        {children}
       </body>
     </html>
   );

@@ -1,59 +1,73 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { FiExternalLink, FiGithub } from "react-icons/fi";
-import {
-  SiNextdotjs,
-  SiTypescript,
-  SiTailwindcss,
-  SiJavascript,
-} from "react-icons/si";
-import { FaSalesforce } from "react-icons/fa6";
+import { FiExternalLink } from "react-icons/fi";
+import { SiEthereum, SiSolana, SiTelegram, SiX } from "react-icons/si";
 
 const projects = [
   {
-    title: "Wiki-Search",
+    title: "Web3 Experience",
     description:
-      "A fast and intuitive search engine powered by the Wikipedia API, built with Next.js.",
-    image: "/wikisearch.png",
-    tech: [
-      { icon: SiNextdotjs, color: "#000000" },
-      { icon: SiTypescript, color: "#3178C6" },
-      { icon: SiTailwindcss, color: "#38BDF8" },
-    ],
-    live: "https://wikisearchbyloseyi.vercel.app",
-    github: "https://github.com/Pandaofaaua/Wiki-Search",
+      "Active participant in the Web3 ecosystem since 2019, contributing across communities, testnets, and blockchain initiatives.",
+    image: "/Boogie/BoogieLogo2.jpeg", // keep image logic intact
+    tech: [{ icon: SiX, color: "#000" }],
+    live: "https://x.com/prufboogie?s=21",
   },
   {
-    title: "Movies Hub",
+    title: "Team Member — KOS",
     description:
-      "A sleek movie & TV show explorer using the TMDb API, built with Next.js and Tailwind CSS.",
-    image: "/movieshub.png",
-    tech: [
-      { icon: SiNextdotjs, color: "#000000" },
-      { icon: SiTypescript, color: "#3178C6" },
-      { icon: SiTailwindcss, color: "#38BDF8" },
-    ],
-    live: "https://movies-hub-by-loseyi.vercel.app",
-    github: "https://github.com/Pandaofaaua/Movies-HUB",
+      "Worked as a team member contributing to Web3 initiatives and ecosystem growth.",
+    image: "/Boogie/Kos.png",
+    tech: [{ icon: SiX, color: "#000" }],
+    live: "https://x.com/koslabs_?s=21",
   },
   {
-    title: "Job Application Tracker",
+    title: "Owner — EchoNet",
     description:
-      "A smart Salesforce app that lets users track and filter job applications, with automated email reminders and triggers that fire on key status changes (like 'Interviewing'). Built to improve job search efficiency.",
-    image: "/JobAppTracker.PNG",
+      "Founder and operator of EchoNet, a Web3-focused initiative built around community and blockchain adoption.",
+    image: "/Boogie/Echonet.png",
+    tech: [{ icon: SiTelegram, color: "#26A5E4" }],
+    live: "https://t.me/+k_WpMrbyPQRmZTU8",
+  },
+  {
+    title: "Community Manager — Lumex",
+    description:
+      "Managed and supported Web3 community engagement, onboarding, and ecosystem participation.",
+    image: "/Boogie/Lumex.png",
     tech: [
-      { icon: FaSalesforce, color: "#00A1E0" },
-      { icon: SiJavascript, color: "#F7DF1E" },
+      { icon: SiTelegram, color: "#26A5E4" },
+      { icon: SiX, color: "#2563eb" },
     ],
-    live: "https://loseyiportfolio.vercel.app/JobAppTracker.PNG",
-    github: "https://github.com/Pandaofaaua/JobAppTracker",
+    live: "https://x.com/web3lumex?s=21",
+  },
+  //https://x.com/web3lumex?s=21
+  {
+    title: "Devnet Participation",
+    description:
+      "Actively participated in devnets and node running across Aptos, Caldera, and Zora.",
+    image: "/Boogie/Aptos.png",
+    tech: [
+      { icon: SiEthereum, color: "#3C3C3D" },
+      { icon: SiSolana, color: "#14F195" },
+    ],
+    live: "https://aptosnetwork.com",
+  },
+  {
+    title: "Tools & Wallets",
+    description:
+      "Daily-use Web3 tools including Zerion, Phantom, MetaMask, and Rabby wallet.",
+    image: "/Boogie/Zerion.png",
+    tech: [
+      { icon: SiEthereum, color: "#3C3C3D" },
+      { icon: SiSolana, color: "#14F195" },
+    ],
+    live: "https://zerion.io",
   },
 ];
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-16 px-6 md:px-12 lg:px-20">
+    <section id="proof" className="py-16 px-6 md:px-12 lg:px-20">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -61,15 +75,13 @@ const Projects = () => {
         viewport={{ once: true }}
         className="max-w-5xl mx-auto"
       >
-        <h2 className="text-3xl font-primary font-bold text-gray-900 dark:text-white">
-          Projects
-        </h2>
-        <p className="mt-2 text-lg font-body text-gray-600 dark:text-gray-300">
-          Here are some of my latest projects showcasing my skills and passion
-          for building modern web applications.
+        <h2 className="text-3xl font-primary font-bold text-pruf ">Proof</h2>
+        <p className="mt-2 text-lg font-body text-gray-600">
+          Verifiable involvement across Web3 ecosystems, communities, and
+          blockchain infrastructure.
         </p>
 
-        {/* Project Grid */}
+        {/* Proof Grid */}
         <div className="mt-8 grid gap-8 md:grid-cols-2">
           {projects.map((project, index) => (
             <motion.div
@@ -78,50 +90,44 @@ const Projects = () => {
               transition={{ duration: 0.3 }}
               className="relative bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-2xl transition-shadow"
             >
-              {/* Project Image with Gradient Overlay on Hover */}
-              <div className="relative w-full h-56 rounded-md overflow-hidden">
+              {/* Visual Placeholder (keeps layout clean) */}
+              <div className="relative w-full h-40 rounded-md overflow-hidden bg-gradient-to-br from-gray-200 to-gray-300  flex items-center justify-center">
+                {/* <span className="text-sm text-gray-600 dark:text-gray-400">
+                  Web3 Proof
+                </span> */}
                 <Image
                   src={project.image}
                   alt={project.title}
                   fill
-                  className="object-cover transition duration-500 hover:brightness-75"
+                  className="object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition duration-500"></div>
               </div>
 
-              {/* Project Details */}
+              {/* Details */}
               <div className="mt-4">
-                <h3 className="text-xl font-primary font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-xl font-primary font-semibold text-gray-900 ">
                   {project.title}
                 </h3>
-                <p className="mt-2 text-gray-600 dark:text-gray-300 font-body">
+                <p className="mt-2 text-gray-600 font-body">
                   {project.description}
                 </p>
 
-                {/* Tech Stack Icons with Custom Colors */}
+                {/* Icons */}
                 <div className="mt-3 flex items-center gap-3">
                   {project.tech.map(({ icon: Icon, color }, i) => (
                     <Icon key={i} className="text-2xl" style={{ color }} />
                   ))}
                 </div>
 
-                {/* Links */}
-                <div className="mt-4 flex gap-4">
+                {/* Link */}
+                <div className="mt-4">
                   <a
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:underline"
+                    className="flex items-center gap-2 text-green-600  hover:underline"
                   >
-                    <FiExternalLink /> Live Demo
-                  </a>
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-gray-900 dark:text-gray-300 hover:underline"
-                  >
-                    <FiGithub /> GitHub
+                    <FiExternalLink /> View Reference
                   </a>
                 </div>
               </div>

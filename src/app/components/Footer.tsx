@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
         {/* Copyright */}
         <p className="text-gray-600 dark:text-gray-300 text-sm">
-          © {new Date().getFullYear()} Akomolafe Oluwaseyi. All rights reserved.
+          © {new Date().getFullYear()} Pruf Boogie. All rights reserved.
         </p>
 
         {/* Navigation Links */}
@@ -22,18 +22,26 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#about"
+                href="#whatido"
                 className="hover:text-blue-600 dark:hover:text-blue-400 transition"
               >
-                About
+                What I Do
               </a>
             </li>
             <li>
               <a
-                href="#projects"
+                href="#proof"
                 className="hover:text-blue-600 dark:hover:text-blue-400 transition"
               >
-                Projects
+                Proof
+              </a>
+            </li>
+            <li>
+              <a
+                href="#trust"
+                className="hover:text-blue-600 dark:hover:text-blue-400 transition"
+              >
+                Why Trust Me
               </a>
             </li>
             <li>

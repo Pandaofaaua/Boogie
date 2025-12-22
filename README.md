@@ -26,3 +26,22 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 - ✅ Fully Responsive – Optimized for all screen sizes.
 - ✅ SEO & Open Graph – Enhanced visibility on search engines and social media.
 - ✅ Fast Performance – Optimized Next.js app with lazy loading for assets.
+
+//Hero (value + credibility)
+What I Do (services)
+Who It’s For
+How It Works
+Results / Proof
+Why Trust Me
+CTA
+Disclaimer
+Onboarded 2019
+Team member for kos
+Owner echonet
+Community manager Lumex
+I partake in the devnet(node running) for Aptos, caldera and Zora
+Onboarded a lot of people, lost count that i can’t remember, and still onboarding
+The only trade i do is degen and it’s once in a while
+I use telegram, x, LinkedIn mostly for my socials
+
+For my wallets i use Zerion, phantom, MetaMask and Rabby wallet

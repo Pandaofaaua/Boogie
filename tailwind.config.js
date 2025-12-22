@@ -11,11 +11,13 @@ module.exports = {
       fontFamily: {
         primary: ["Poppins", "sans-serif"],
         body: ["Inter", "sans-serif"],
+        space: ["Space Grotesk", "sans-serif"],
       },
       colors: {
-        primary: "#4ADE80",
+        primary: "#0F9D58",
         secondary: "#A78BFA",
         accent: "#FBBF24",
+        pruf: "#0B0B0B",
       },
     },
   },
