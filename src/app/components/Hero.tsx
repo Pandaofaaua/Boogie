@@ -46,7 +46,7 @@ const Hero = () => {
 
             {/* Contact Me Button */}
             <Link
-              href="mailto:prufboogie@gmail.com"
+              href="https://x.com/prufboogie?s=21"
               className="px-6 py-3 border border-gray-700 text-pruf
                font-primary font-medium rounded-md shadow-md hover:bg-gray-100  transition"
             >
