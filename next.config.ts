@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/favicon.ico",
-        destination: "/OSEYI.png",
+        destination: "/Boogie/BoogieLogo2.jpeg",
         permanent: true, // Indicates a 301 redirect
       },
     ];
