@@ -2,27 +2,25 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Pruf Boogie | Web3 Specialist",
+  title: "Pruf Boogie | Web3 Engagement & Community Specialist",
   description:
-    "I'm a passionate Web3 Engagement Specialist who transforms complex protocol data into accessible community insight",
+    "Web3 specialist with hands-on experience in community management, onboarding, devnet participation, and ecosystem growth across multiple blockchain networks since 2019.",
   keywords:
-    "frontend developer, Next.js, TypeScript, Tailwind CSS, web development, React",
-  authors: [
-    { name: "Akomolafe Oluwaseyi", url: "https://loseyiportfolio.vercel.app" },
-  ],
-  metadataBase: new URL("https://loseyiportfolio.vercel.app"),
+    "Web3, crypto, blockchain, community manager, Web3 engagement, devnet, node running, Aptos, Caldera, Zora",
+  authors: [{ name: "Pruf Boogie", url: "https://prufboogie.com.ng" }],
+  metadataBase: new URL("https://prufboogie.com.ng"),
   openGraph: {
-    title: "Loseyi | Frontend Developer",
+    title: "Pruf Boogie | Web3 Engagement Specialist",
     description:
-      "I'm a frontend developer specializing in modern web applications using Next.js, TypeScript, and Tailwind CSS.",
-    url: "https://loseyiportfolio.vercel.app",
-    siteName: "Oluwaseyi Portfolio",
+      "Hands-on Web3 experience across communities, testnets, and blockchain ecosystems. Focused on credible participation, onboarding, and ecosystem growth.",
+    url: "https://prufboogie.com.ng",
+    siteName: "Pruf Boogie",
     images: [
       {
-        url: "/actualimg.png",
+        url: "/Boogie/BoogieLogo2.jpeg", // replace later if client provides a branded OG image
         width: 1200,
         height: 630,
-        alt: "Oluwaseyi Portfolio Thumbnail",
+        alt: "Pruf Boogie Web3 Portfolio",
       },
     ],
     locale: "en_US",
@@ -30,12 +28,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "https://loseyiportfolio.vercel.app",
-    creator: "@Loseyiknows",
-    title: "Oluwaseyi | Frontend Developer",
+    site: "@prufboogie", // update if client provides handle
+    creator: "@prufboogie",
+    title: "Pruf Boogie | Web3 Engagement Specialist",
     description:
-      "I'm a frontend developer specializing in modern web applications using Next.js, TypeScript, and Tailwind CSS.",
-    images: ["/actualimg.png"],
+      "Web3 engagement specialist with real ecosystem participation, community management, and devnet experience.",
+    images: ["/Boogie/BoogieLogo2.jpeg"],
   },
 };
 
@@ -49,9 +47,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/Boogie/BoogieLogo2.jpeg" />
       </head>
-      <body className="bg-white dark:bg-gray-900 text-white dark:text-white">
-        {children}
-      </body>
+      <body className="bg-white text-gray-900">{children}</body>
     </html>
   );
 }

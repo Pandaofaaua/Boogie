@@ -92,14 +92,12 @@ const Projects = () => {
             >
               {/* Visual Placeholder (keeps layout clean) */}
               <div className="relative w-full h-40 rounded-md overflow-hidden bg-gradient-to-br from-gray-200 to-gray-300  flex items-center justify-center">
-                {/* <span className="text-sm text-gray-600 dark:text-gray-400">
-                  Web3 Proof
-                </span> */}
                 <Image
                   src={project.image}
                   alt={project.title}
-                  fill
-                  className="object-cover"
+                  width={600}
+                  height={400}
+                  className="w-full h-40 object-cover rounded-md"
                 />
               </div>
 
